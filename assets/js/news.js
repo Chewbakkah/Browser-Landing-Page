@@ -9,8 +9,8 @@ $("#searchbtn").on("click", function (e) {
     "q=" +
     query +
     "" +
-    "&country=us&" +
-    "&token=701c1df87fadc3a6b806c86596655ba5"+ "&pages_6&";
+    "&country=us"+"?max=6" +
+    "&token=701c1df87fadc3a6b806c86596655ba5";
 
   if (query !== "" || "today") {
     $.ajax({
