@@ -105,16 +105,10 @@ p, h3, h1, h5, h6{
     min-height: 10rem;
 }
 
-.w-Col3, .w-Col4 {
-    margin-top: 15px;
-}
-
 img {
     height: 100px;
     width: 100px;
 }
-
-
 
 
 /*mobile setup*/
@@ -127,6 +121,5 @@ img {
         position: sticky;
     }
 }
-
 
 
