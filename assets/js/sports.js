@@ -68,7 +68,15 @@ var getPlayerTwo = function(playerSearch) {
         teamEl.innerHTML = " Team: " + data.data[0].team.city + " " + data.data[0].team.name;
     })
 };
-
+// fetch("https://odds.p.rapidapi.com/v1/odds?sport=americanfootball_nfl&region=us&mkt=totals&dateFormat=iso&oddsFormat=american", {
+// 	"method": "GET",
+// 	"headers": {
+// 		"x-rapidapi-host": "odds.p.rapidapi.com",
+// 		"x-rapidapi-key": "5eac565ee1mshdb48ee068ef1a4cp1f16efjsnc8cb0faa0fc0"
+// 	}
+// })
+// .then(response => response.json())
+// .then(data => console.log(data))
 
 // adds a event listener to the buttonEl and says once this button is clicked run the player 
 buttonEl.addEventListener("click", playerSumbitHandler)
